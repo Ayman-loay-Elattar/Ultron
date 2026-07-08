@@ -1,6 +1,6 @@
 ## How it works
 
-[Ctrl+Alt+Space] → a small popup appears
+[HOTKEY] → a small popup appears
        ↓
 you type: "whatsapp"
        ↓
@@ -29,9 +29,9 @@ The LLM (Llama 3.3 70B via Groq's free API) is used only for turning a loosely-p
 2. Open a terminal and install all dependencies in requirements.txt (PIP must be installed on your device):
    pip install -r requirements.txt (or you can do it one by one)
 
-3. Get a free API key from console.groq.com/keys (or any API):
-     then set it as an environment variable (PowerShell / terminal):
-          setx GROQ_API_KEY "your-key-here" (Do NOT change the string "GROQ_API_KEY" if another API is used)
+3. Get a free API key from console.groq.com/keys (Note that if you want to use another API. you will need to update the **intent_parser.py** file):
+     then set it as an environment variable (PowerShell):
+          setx GROQ_API_KEY "your-key-here"
    
    (close and reopen your terminal after this so it takes effect)
 
