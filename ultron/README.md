@@ -35,7 +35,7 @@ The LLM (Llama 3.3 70B via Groq's free API) is used only for turning a loosely-p
    
    (close and reopen your terminal after this so it takes effect)
 
-4. Edit `config.json`**important**:
+4. Edit `config.json` (**important**):
    - Add your own shortcuts (e.g. `"lecture_notes": "C:\\...\\notes.pdf"`).
    - Add any apps you want to be able to open by name.
    - Adjust `allowed_base_dirs` to folders or Drives you're comfortable letting this
