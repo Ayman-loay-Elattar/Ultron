@@ -1,0 +1,13 @@
+{
+  "shortcuts": {
+
+  },
+  "apps": {
+
+  },
+  "allowed_base_dirs": [
+    "C:\\",
+    "D:\\"
+  ],
+  "hotkey": "ctrl+alt+space"
+}
