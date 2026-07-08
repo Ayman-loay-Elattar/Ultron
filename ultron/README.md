@@ -42,9 +42,8 @@ The LLM (Llama 3.3 70B via Groq's free API) is used only for turning a loosely-p
      agent open files from.
 
 ## Running it:
-     Type this in the terminal after opening the folder that has the code files (e.g. cd D:\Codes):
+   Type this in the terminal after opening the folder that has the code files (e.g. cd D:\Codes):
           pythonw main.py
-
 
 Close the terminal — it's listening in the background. Press
 **Ctrl+Alt+Space** anywhere on your PC, type a command like:
